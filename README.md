@@ -5,8 +5,11 @@ Django is famous for being scalable, secure and simple. It allows for rapid serv
                                              HTTP response  
                                                    ^
                                                    |
-|HTTP request -> URLS (urls.py) -> appropriate view in views.py <- HTML files |
                                                    
+HTTP request -> URLS (urls.py) -> appropriate view in views.py <- HTML files 
+                                                  ^
+                                                  |
+                                              models.py
                                                
 Using django-graphene fro GrpahQL with django
 

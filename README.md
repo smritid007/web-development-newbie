@@ -10,12 +10,17 @@ HTTP request -> URLS (urls.py) -> appropriate view in views.py <- HTML files
                                                    |
                                                    v
                                                models.py
+                                               
 Using django-graphene fro GrpahQL with django
 
 Creating the environment:
 1. Create python virtual environment :
     go to the folder containing the project
+   
     '''python3 -m venv evn_name'''
+   
     '''source evn_name/bin/activate'''
-2. Install the required packages:
+   
+3. Install the required packages:
+   
      '''pip install graphene-django'''
